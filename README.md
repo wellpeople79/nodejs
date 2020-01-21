@@ -20,6 +20,8 @@ git commit -m "<변화한 내용>" : local에 수정된 내용 추가
 
 git push origin master : git 서버에 저장
 
+git push -f origin master : push가 안될경우 강제로 git 서버에 저장
+
 # socket.io
 io.sockets.emit() : 연결된 모든 client 전송
 
