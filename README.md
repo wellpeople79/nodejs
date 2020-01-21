@@ -18,14 +18,7 @@ git commit -m " Commit message" : git 저장소로 저장
 
 git commit -m "<변화한 내용>" : local에 수정된 내용 추가
 
-
-
-으로 local git을 업데이트하고, 
-
-
-
-git push origin master
-[출처] [Node.js 강좌] 4. npm init, npm install express --save, nodemon|작성자 azure0777
+git push origin master : git 서버에 저장
 
 # socket.io
 io.sockets.emit() : 연결된 모든 client 전송
@@ -33,6 +26,3 @@ io.sockets.emit() : 연결된 모든 client 전송
 socket.emit() : 현재 socket 연결된 client만 전송
 
 socket.broadcast.emit() : 현재 socket 연결된 client를 제외한 모든 client 전송
-
-
-
